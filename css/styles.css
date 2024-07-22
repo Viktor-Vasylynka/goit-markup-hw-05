@@ -53,6 +53,8 @@ img {
     --blue-color: #4d5ae5;
     --white-color: #f4f4fd;
     --green-color: #31d0aa;
+    --blue-fone: #404bbf;
+    --white-fone: #F4F4FD;
 }
 /* -------------------------HEADER------------------------- */
 
@@ -766,9 +768,9 @@ textarea:placeholder-shown {
     }
 
     .modal-check:checked+label>span {
-        background-color: #404bbf;
+        background-color: var(--blue-fone);
         border: none;
-        fill: #f4f4fd;
+        fill: var(--white-fone);
     }
 
     .check-icon-container {
@@ -786,7 +788,7 @@ textarea:placeholder-shown {
         margin-right: 8px;
     }
     .check-icon {
-        fill: #f4f4fd;
+        fill: #F4F4FD;;
     }
 
     .modal-check-lable {
