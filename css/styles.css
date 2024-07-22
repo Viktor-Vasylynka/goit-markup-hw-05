@@ -786,7 +786,7 @@ textarea:placeholder-shown {
         margin-right: 8px;
     }
     .check-icon {
-        fill: none;
+        fill: #f4f4fd;
     }
 
     .modal-check-lable {
