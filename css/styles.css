@@ -767,7 +767,7 @@ textarea:placeholder-shown {
         border: none
     }
 
-    .modal-check:checked+label>span {
+    .modal-check:checked + .modal-check-lable > .check-icon-container {
         background-color: var(--blue-fone);
         border: none;
         fill: var(--white-fone);
