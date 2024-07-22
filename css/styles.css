@@ -776,8 +776,8 @@ textarea:placeholder-shown {
     .check-icon-container {
         width: 16px;
         height: 16px;
-        border-radius: 2px;
         border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 2px;
         display: inline-flex;
         justify-content: center;
         fill: transparent;
